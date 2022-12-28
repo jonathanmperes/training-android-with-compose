@@ -1,5 +1,9 @@
 fun main() {
-    printMessages()
+    messageFromFriend()
+}
+
+fun messageFromFriend() {
+    println("New chat message from a friend.")
 }
 
 fun printMessages() {
