@@ -1,5 +1,12 @@
 fun main() {
-    stringTemplate()
+    stringConcatenation()
+}
+
+fun stringConcatenation() {
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
 }
 
 fun stringTemplate() {
