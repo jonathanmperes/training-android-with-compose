@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409d8819-25eb-4ebd-b3e2-64765c52cb85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/practiceProblemsKotlinBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceProblemsKotlinBasics.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
