@@ -1,6 +1,28 @@
 fun main() {
-    stringConcatenation()
+    mathOperation()
 }
+
+fun mathOperation() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+
+    val result = add(numberOne = firstNumber, numberTwo = secondNumber)
+    val anotherResult = add(numberOne = firstNumber, numberTwo = thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult")
+
+    val newResult = subtract(numberOne = firstNumber, numberTwo = secondNumber)
+    val newAnotherResult = subtract(numberOne = firstNumber, numberTwo = thirdNumber)
+
+    println("$firstNumber - $secondNumber = $newResult")
+    println("$firstNumber - $thirdNumber = $newAnotherResult")
+}
+
+fun subtract(numberOne: Int, numberTwo: Int) = numberOne - numberTwo
+
+fun add(numberOne: Int, numberTwo: Int) = numberOne + numberTwo
 
 fun stringConcatenation() {
     val numberOfAdults = 20
