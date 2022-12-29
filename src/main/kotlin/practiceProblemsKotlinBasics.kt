@@ -1,7 +1,17 @@
 const val CALORIES_BURNED_FOR_EACH_STEP: Double = 0.04
 
 fun main() {
-    pedometer()
+    compareTwoNumbers()
+}
+
+fun compareTwoNumbers() {
+    val timeSpentToday = 200
+    val timeSpentYesterday = 220
+    println(spentMoreTimeToday(timeSpentToday, timeSpentYesterday))
+}
+
+fun spentMoreTimeToday(timeSpentToday: Int, timeSpentYesterday: Int) : Boolean {
+    return timeSpentToday > timeSpentYesterday
 }
 
 fun pedometer() {
