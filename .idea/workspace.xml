@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409d8819-25eb-4ebd-b3e2-64765c52cb85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practiceProblemsKotlinBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceProblemsKotlinBasics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_21_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_21_21__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_21_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_21_22__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_12_2022_16_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_12_2022_16_21__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="codelab-create-and-use-functions-in-kotlin" />
+        <entry key="$PROJECT_DIR$" value="codelab-practice-problems-kotlin-basics" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,13 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Kotlin.PracticeProblemsKotlinBasicsKt">
     <configuration name="CreateAndUseFunctionsInKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreateAndUseFunctionsInKotlinKt" />
@@ -59,7 +62,7 @@
       <list>
         <item itemvalue="Kotlin.PracticeProblemsKotlinBasicsKt" />
         <item itemvalue="Kotlin.CreateAndUseFunctionsInKotlinKt" />
-        <item itemvalue="Kotlin.CreateAndUseFunctionsInKotlinKt" />
+        <item itemvalue="Kotlin.PracticeProblemsKotlinBasicsKt" />
         <item itemvalue="Kotlin.CreateAndUseFunctionsInKotlinKt" />
         <item itemvalue="Kotlin.CreateAndUseFunctionsInKotlinKt" />
       </list>
@@ -87,7 +90,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="codelab-practice-problems-kotlin-basics" />
+                        <option value="origin/codelab-practice-problems-kotlin-basics" />
                       </list>
                     </value>
                   </entry>
