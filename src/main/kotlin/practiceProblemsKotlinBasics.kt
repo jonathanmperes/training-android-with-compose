@@ -1,6 +1,16 @@
+const val CALORIES_BURNED_FOR_EACH_STEP: Double = 0.04
+
 fun main() {
-    defaultParameters()
+    pedometer()
 }
+
+fun pedometer() {
+    val steps = 4000
+    val caloriesBurned = pedometerStepsToCalories(steps)
+    println("Walking $steps steps burns $caloriesBurned calories")
+}
+
+fun pedometerStepsToCalories(numberOfSteps: Int) = numberOfSteps * CALORIES_BURNED_FOR_EACH_STEP
 
 fun defaultParameters() {
     val firstUserEmailId = "user_one@gmail.com"
