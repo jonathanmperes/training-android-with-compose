@@ -1,5 +1,28 @@
 fun main() {
-    mathOperation()
+    defaultParameters()
+}
+
+fun defaultParameters() {
+    val firstUserEmailId = "user_one@gmail.com"
+
+    println(displayAlertMessage(emailId = firstUserEmailId))
+    println()
+
+    val secondUserOperatingSystem = "Windows"
+    val secondUserEmailId = "user_two@gmail.com"
+
+    println(displayAlertMessage(operatingSystem = secondUserOperatingSystem, emailId = secondUserEmailId))
+    println()
+
+    val thirdUserOperatingSystem = "Mac OS"
+    val thirdUserEmailId = "user_third@gmail.com"
+
+    println(displayAlertMessage(operatingSystem = thirdUserOperatingSystem, emailId = thirdUserEmailId))
+    println()
+}
+
+fun displayAlertMessage(operatingSystem: String = "Unknown OS", emailId:String): String {
+    return "There's a new sign-in request on $operatingSystem for your Google Account $emailId"
 }
 
 fun mathOperation() {
