@@ -1,7 +1,43 @@
 const val CALORIES_BURNED_FOR_EACH_STEP: Double = 0.04
 
 fun main() {
-    compareTwoNumbers()
+    citiesWeatherForecast()
+}
+
+fun citiesWeatherForecast() {
+    val cities = listOf(
+        CityWeather("Ankara", 27, 31, 82),
+        CityWeather("Tokyo", 32, 36, 10),
+        CityWeather("Cape Town", 59, 64, 2),
+        CityWeather("Guatemala City", 50, 55, 7)
+    )
+    weatherForecast(cities)
+}
+
+fun weatherForecast(cities: List<CityWeather>) {
+
+    cities.forEach { city ->
+        println(
+            """
+            City: ${city.name}
+            Low temperature: ${city.lowTemper}, High temperature: ${city.highTemper}
+            Chance of rain: ${city.rain}%
+            
+        """.trimIndent()
+        )
+    }
+}
+
+class CityWeather(
+    cityName: String,
+    lowTemperature: Int,
+    highTemperature: Int,
+    chanceOfRain: Int
+) {
+    val name = cityName
+    val lowTemper = lowTemperature
+    val highTemper = highTemperature
+    val rain = chanceOfRain
 }
 
 fun compareTwoNumbers() {
@@ -10,7 +46,7 @@ fun compareTwoNumbers() {
     println(spentMoreTimeToday(timeSpentToday, timeSpentYesterday))
 }
 
-fun spentMoreTimeToday(timeSpentToday: Int, timeSpentYesterday: Int) : Boolean {
+fun spentMoreTimeToday(timeSpentToday: Int, timeSpentYesterday: Int): Boolean {
     return timeSpentToday > timeSpentYesterday
 }
 
@@ -41,7 +77,7 @@ fun defaultParameters() {
     println()
 }
 
-fun displayAlertMessage(operatingSystem: String = "Unknown OS", emailId:String): String {
+fun displayAlertMessage(operatingSystem: String = "Unknown OS", emailId: String): String {
     return "There's a new sign-in request on $operatingSystem for your Google Account $emailId"
 }
 
